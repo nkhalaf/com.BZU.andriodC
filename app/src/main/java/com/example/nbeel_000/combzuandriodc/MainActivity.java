@@ -30,14 +30,13 @@ public class MainActivity extends ActionBarActivity {
                     if(Math.abs(random-uNumber)<=5)
                         Toast.makeText(getBaseContext()," very Close :D",Toast.LENGTH_SHORT).show();
                     else{
-                        Toast.makeText(getBaseContext()," too far ",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getBaseContext()," too Far :( ",Toast.LENGTH_SHORT).show();
                     }
                 }
 
 
             }
         });
-
 
 
 
